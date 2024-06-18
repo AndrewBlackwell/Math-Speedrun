@@ -1,0 +1,208 @@
+.btn:hover {
+  background-color: #d50080;
+  padding: 5px 25px 5px 25px;
+  border-radius: 25px;
+  color: #040303;
+  text-decoration: none;
+}
+
+body {
+  background-color: #040303;
+  color: #f9b4ed;
+}
+.btn {
+  background-color: #040303;
+  border: solid 2px #d50080;
+  padding: 5px 25px 5px 25px;
+  border-radius: 25px;
+  color: #d50080;
+  text-decoration: none;
+}
+
+button {
+  background-color: #040303;
+  border: solid 2px #d50080;
+  padding: 5px 25px 5px 25px;
+  border-radius: 25px;
+  color: #d50080;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #d50080;
+  padding: 5px 25px 5px 25px;
+  border-radius: 25px;
+  color: #040303;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px 0px 50px;
+}
+
+.footer {
+  position: fixed;
+  height: 50px;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #d50080;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #d50080;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 26pt;
+}
+
+input {
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+  border: solid #d50080 1.5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-60%);
+}
+
+.fab {
+  color: #d50080;
+  text-decoration: none;
+  transform: scale(60%);
+}
+
+.player-wrapper {
+  left: 0;
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.player {
+  border: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 10px 0 0 0;
+}
+
+.end-stat {
+  text-align: center;
+}
+
+input[type="number"] {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 2px solid #d50080;
+  background-color: #040303;
+  color: #f9b4ed;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+}
+
+/* Styling when input is focused */
+input[type="number"]:focus {
+  border-color: #d50080;
+  background-color: #4a243e;
+  color: #d50080;
+}
+
+/* Remove spin buttons for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Remove spin buttons for WebKit browsers like Safari and Chrome */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Placeholder styling */
+input[type="number"]::placeholder {
+  color: #d50080;
+  opacity: 0.7;
+}
+
+.detail-wrapper {
+  margin: 20px 0 20px 0;
+}
+
+.a-false {
+  color: #d50080;
+  padding: 5px 0 5px 0;
+  vertical-align: middle;
+}
+
+.a-true {
+  padding: 5px 0 5px 0;
+  vertical-align: middle;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(270deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 10s ease infinite;
+}
+
+.footer a:hover {
+  background: linear-gradient(270deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s ease infinite;
+}
